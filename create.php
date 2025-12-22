@@ -1,5 +1,4 @@
 <?php 
-   
     require_once "config/bootstrap.php";
 
     if($_SERVER["REQUEST_METHOD"] == "POST") {

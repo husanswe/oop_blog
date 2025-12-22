@@ -3,8 +3,6 @@
 
    $post_id = $_GET["id"];
    $post = Post::getById($post_id);
-
-
 ?>
 
 <!DOCTYPE html>

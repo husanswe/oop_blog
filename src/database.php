@@ -1,12 +1,12 @@
 <?php 
 
 class Database {
-    public $database;
-    public $servername;
-    public $username;
-    public $password; 
+    private string $database;
+    private string $servername;
+    private string $username;
+    private string $password; 
 
-    public function __construct($servername, $database, $username, $password) {
+    public function __construct(string $servername, string $database, string $username, string $password) {
         $this->servername = $servername;
         $this->database = $database;
         $this->username = $username;

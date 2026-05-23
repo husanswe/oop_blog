@@ -1,12 +1,13 @@
-.hdr-container {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: auto;
-                background-color: #1877F2;
-                border-radius: 20px;
-                margin: 20px;
-            }
+.hdr-container 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #1877F2;
+    border-radius: 20px;
+    margin: 20px;
+}
 
 .create-post {
     display: flex;
